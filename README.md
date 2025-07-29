@@ -1,11 +1,13 @@
-![Settings Menu](https://cdn.modrinth.com/data/M4Fyp5vW/images/17028ecc7d8a75f284d50cbaf7ee1ce5f6d22273.png)
-DefinitelyMyCoords helps you hide your coordinates on the F3 screen with 4 different modes.
-
 This fork add some features, such as an offset boundary box (only offsets your coords when you are within a set coordinate range)
 and the ability to only offset when you are in a specific dimension.
 It is recommended to delete (or rename) your old config file before launching.
 ### I did not add these new options to the config menu. They must be set by editing .minecraft/config/definitelymycoords/config.json
 These changes don't work in the 'Custom' mode.
+
+![Settings Menu](https://cdn.modrinth.com/data/M4Fyp5vW/images/17028ecc7d8a75f284d50cbaf7ee1ce5f6d22273.png)
+DefinitelyMyCoords helps you hide your coordinates on the F3 screen with 4 different modes.
+
+
 
 # Why do I want this mod?
 
