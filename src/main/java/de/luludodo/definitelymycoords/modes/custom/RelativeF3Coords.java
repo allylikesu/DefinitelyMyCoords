@@ -59,7 +59,8 @@ public class RelativeF3Coords {
     }
 
     public static String getDim() {
-        assert CLIENT.world != null;
+        if (CLIENT == null) { return null; }
+        if (CLIENT.world == null) { return null; }
         return CLIENT.world.getRegistryKey().getValue().toString();
     }
 

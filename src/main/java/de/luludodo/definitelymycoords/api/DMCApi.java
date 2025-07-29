@@ -431,6 +431,9 @@ public class DMCApi {
     }
 
     public static boolean isVanilla() {
+        if (RelativeF3Coords.getDim() == null) {
+            return true;
+        }
         if (!RelativeF3Coords.getDim().equals(ConfigAPI.getDimension())) {
             return true;
         }
