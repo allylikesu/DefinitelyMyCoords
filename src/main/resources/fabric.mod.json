@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "definitelymycoords",
+  "version": "${version}",
+  "name": "Definitely My Coords",
+  "description": "A Mod to modify the coordinates shown on the f3 screen.",
+  "authors": ["agent_LuluDodo"],
+  "contact": {
+    "sources": "https://github.com/agent-LuluDodo/DefinitlyMyCoords",
+    "issues": "https://github.com/agent-LuluDodo/DefinitlyMyCoords/issues",
+    "homepage": "https://modrinth.com/mod/definitlymycoords"
+  },
+  "license": "MIT",
+  "icon": "assets/definitelymycoords/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.luludodo.definitelymycoords.DefinitelyMyCoords"
+    ]
+  },
+  "mixins": [
+    "definitelymycoords.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=1.20.3"
+  },
+  "breaks": {
+    "optifabric": "*"
+  }
+}
